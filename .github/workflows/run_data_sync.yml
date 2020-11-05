@@ -17,9 +17,9 @@ on:
       - requirements.txt
 
 env:
-  RUN_TYPE: pass # support runtastic/strava/nike/garmin/garmin_cn/keep, Please change the 'pass' it to your own
-  ATHLETE: yihong0618
-  TITLE: Yihong0618 Running
+  RUN_TYPE: keep # support runtastic/strava/nike/garmin/garmin_cn/keep, Please change the 'pass' it to your own
+  ATHLETE: JiyoTomare
+  TITLE: JiyoTomare Running
   TITLE_GRID: Over 10km Runs
 
 jobs:
@@ -88,9 +88,9 @@ jobs:
       - name: Push new runs
         uses: github-actions-x/commit@v2.6
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.RUNNING_PAGE }}
           commit-message: "Add new runs"
           files: activities src/static/ scripts/ assets/ GPX_OUT/
           rebase: 'true'
-          name: yihong0618
-          email: zouzou0208@gmail.com
+          name: chengpengzhao
+          email: z609722559@gmail.com
