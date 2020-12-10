@@ -1,0 +1,175 @@
+{
+    "id": "903fcedd-2600-4623-a4ac-2f14dce7359a",
+    "type": "training",
+    "app_id": "com.nike.ntc.brand.ios",
+    "start_epoch_ms": 1607500321367,
+    "end_epoch_ms": 1607500398031,
+    "last_modified": 1607500406727,
+    "active_duration_ms": 60000,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "rpe",
+            "summary": "max",
+            "source": "nike.ntc.ios",
+            "app_id": "com.nike.brand.ios.ntc",
+            "value": 5
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "total",
+            "source": "com.nike.nikefuelengine.1.0-A5.0",
+            "app_id": "com.nike.ntc.brand.ios",
+            "value": 12.207142857142857
+        },
+        {
+            "metric": "calories",
+            "summary": "total",
+            "source": "nike.ntc.ios",
+            "app_id": "com.nike.brand.ios.ntc",
+            "value": 4
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "mean",
+            "source": "com.nike.nikefuelengine.1.0-A5.0",
+            "app_id": "com.nike.ntc.brand.ios",
+            "value": 12.207142857142857
+        }
+    ],
+    "sources": [
+        "nike.ntc.ios",
+        "com.nike.nikefuelengine.1.0-A5.0"
+    ],
+    "tags": {
+        "com_nike_ntc_location": "home",
+        "com_nike_ntc_workout_duration": "1800",
+        "com_nike_ntc_workout_equipment": "none",
+        "com_nike_ntc_workout_estimatedcalories": "130",
+        "com_nike_ntc_workout_focus": "endurance",
+        "com_nike_ntc_workout_format": "free",
+        "com_nike_ntc_workout_id": "2e377134-85ed-3d6e-bc03-385ed29a3bcf",
+        "com_nike_ntc_workout_intensity": "high",
+        "com_nike_ntc_workout_level": "intermediate",
+        "com_nike_ntc_workout_musclegroup": "glutes",
+        "com_nike_ntc_workout_name": "\u5b9e\u529b\u5065\u817f",
+        "com_nike_ntc_workout_seotags": "outside,cardio,time based,calves,lower body,endurance,Weight loss,aerobic,explosiveness,glutes,cross training,quadriceps,Challenging,burn,conditioning,legs,stamina,squat,lunge,jumping",
+        "com_nike_ntc_workout_type": "time"
+    },
+    "change_tokens": [
+        "3c0e258ca334b0f82ab5c29d9ed7518356b367891feaf8242f65b0bc044de43b:1607500406727",
+        "d2ad717a13a39ff5a43ad157163bffa5d0f843d0744b3289fecb52016c0e40dc:1607500398654"
+    ],
+    "metric_types": [
+        "rpe",
+        "calories",
+        "nikefuel"
+    ],
+    "metrics": [
+        {
+            "type": "rpe",
+            "unit": "RATING",
+            "source": "nike.ntc.ios",
+            "appId": "com.nike.brand.ios.ntc",
+            "values": [
+                {
+                    "start_epoch_ms": 1607500321367,
+                    "end_epoch_ms": 1607500398031,
+                    "value": 5
+                }
+            ]
+        },
+        {
+            "type": "calories",
+            "unit": "KCAL",
+            "source": "nike.ntc.ios",
+            "appId": "com.nike.brand.ios.ntc",
+            "values": [
+                {
+                    "start_epoch_ms": 1607500321367,
+                    "end_epoch_ms": 1607500398031,
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "type": "nikefuel",
+            "unit": "FUEL",
+            "source": "com.nike.nikefuelengine.1.0-A5.0",
+            "appId": "com.nike.ntc.brand.ios",
+            "values": [
+                {
+                    "start_epoch_ms": 1607500321367,
+                    "end_epoch_ms": 1607500331000,
+                    "value": 1.5338543141873262
+                },
+                {
+                    "start_epoch_ms": 1607500331000,
+                    "end_epoch_ms": 1607500341000,
+                    "value": 1.5922914088937257
+                },
+                {
+                    "start_epoch_ms": 1607500341000,
+                    "end_epoch_ms": 1607500351000,
+                    "value": 1.5922914088937257
+                },
+                {
+                    "start_epoch_ms": 1607500351000,
+                    "end_epoch_ms": 1607500361000,
+                    "value": 1.5922914088937257
+                },
+                {
+                    "start_epoch_ms": 1607500361000,
+                    "end_epoch_ms": 1607500371000,
+                    "value": 1.5922914088937257
+                },
+                {
+                    "start_epoch_ms": 1607500371000,
+                    "end_epoch_ms": 1607500381000,
+                    "value": 1.5922914088937257
+                },
+                {
+                    "start_epoch_ms": 1607500381000,
+                    "end_epoch_ms": 1607500391000,
+                    "value": 1.5922914088937257
+                },
+                {
+                    "start_epoch_ms": 1607500391000,
+                    "end_epoch_ms": 1607500398031,
+                    "value": 1.1195400895931784
+                }
+            ]
+        }
+    ],
+    "moments": [
+        {
+            "key": "drill_start",
+            "value": "4324ec25-c130-35df-9047-c32568df53b2",
+            "timestamp": 1607500331369,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_start",
+            "value": "f6c79892-4cfa-3d2e-ad4d-09ac88f34263",
+            "timestamp": 1607500371369,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "4324ec25-c130-35df-9047-c32568df53b2",
+            "timestamp": 1607500361369,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "halt",
+            "value": "pause",
+            "timestamp": 1607500391835,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        }
+    ]
+}
